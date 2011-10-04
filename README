@@ -1,0 +1,17 @@
+# lein-envclasspath
+
+This shouldn't be needed as :extra-classpath-libs should be able to handle it, however, it doesn't work for me so this was my solution until I figure that out.
+
+## Usage
+
+Add :dev-dependencies [[lein-envclasspath "0.1.2"]] though, this isn't on clojars or anything (TODO: fix that)
+
+Add :hooks [leiningen.hooks.envclasspath]
+
+Set your CLASSPATH somehow
+
+## License
+
+Copyright (C) 2011 Andrew Gwozdziewycz
+
+Distributed under the Eclipse Public License, the same as Clojure.
